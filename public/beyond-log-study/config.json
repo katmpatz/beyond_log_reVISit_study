@@ -1,0 +1,203 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Beyond Log Study",
+        "version": "pilot",
+        "authors": [
+            "Katerina Batziakoudi"
+        ],
+        "date": "2025-11-10",
+        "description": "Online studies comparing bar charts for data with orders of magnitude differences",
+        "organizations": [
+            "Inria, France"
+        ]
+    },
+    "baseComponents": {
+        "image-instructions-component": {
+            "previousButton": true,
+            "nextButtonLocation": "sidebar",
+            "response": [],
+            "style": {
+                "margin":"0 5vw",
+                "maxHeight": "60vh",
+                "maxWidth": "70vw"
+            },
+            "type": "image"
+        }
+    },
+    "uiConfig": {
+        "contactEmail": "aikaterini.batziakoudi@inria.fr",
+        "helpTextPath": "beyond-log-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": false,
+        "autoDownloadStudy": false,
+        "withSidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/introduction.md",
+            "response": []
+        },
+        "consent": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/consent.md",
+            "nextButtonText": "Agree",
+            "response": [
+                {
+                "id": "signature",
+                "prompt": "Your signature",
+                "location": "belowStimulus",
+                "type": "shortText",
+                "placeholder": "Please provide your signature"
+                },
+                {
+                "id": "accept",
+                "prompt": "Do you consent to the study and wish to continue?",
+                "requiredValue": "Accept",
+                "location": "belowStimulus",
+                "type": "radio",
+                "options": [
+                    "Decline",
+                    "Accept"
+                ]
+                }
+            ]
+        },
+        "subjective-numeracy": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/numeracy.md",
+            "nextButtonText": "Next",
+            "response": [
+                {
+                    "id": "q1-numeracy",
+                    "prompt": "How good are you at working with fractions?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Not good at all",
+                    "rightLabel": "Extremely good"
+                },
+                {
+                    "id": "fractions",
+                    "prompt": "How good are you at working with fractions?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Not good at all",
+                    "rightLabel": "Extremely good"
+                },
+                {
+                    "id": "shirt",
+                    "prompt": "How good are you at figuring out how much a shirt will cost if it is 25% off?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Not good at all",
+                    "rightLabel": "Extremely good"
+                },
+                {
+                    "id": "log",
+                    "prompt": "How often do you read logarithmic charts?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Never",
+                    "rightLabel": "Very often"
+                },
+                {
+                    "id": "usefulness",
+                    "prompt": "How often do you find numerical information to be useful?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Never",
+                    "rightLabel": "Very often"
+                },
+                {
+                    "id": "attention-1",
+                    "prompt": "How often do you travel to the planet Mars to buy kiwis?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Never",
+                    "rightLabel": "Very often"
+                }
+            ]
+        },
+        "training1": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/all-visualizations.svg",
+        },
+        "training2": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/log-axis.svg",
+        },
+        "training3": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/log-scale.gif",
+        },
+        "training4": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/log-inside-1.svg",
+        },
+        "training5": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/eplusm-inside-2.svg",
+        },
+        "training6": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/units-inside.svg"
+        },
+        "training7": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/multimag-1.svg"
+        },
+        "comprehension-check": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/comprehension.md",
+            "nextButtonText": "Ready to start the experiment",
+            "previousButton": true,
+            "previousButtonText": "Re-Read the instructions",
+            "response": [
+                {
+                    "id": "5items-response",
+                    "prompt": "To what extent do you agree that this visual representation is...?",
+                    "location": "belowStimulus",
+                    "type": "",
+                    "answerOptions": "satisfaction5",
+                    "questionOrder": "random", 
+                    "questionOptions": [
+                        "enjoyable",
+                        "likable",
+                        "pleasing",
+                        "nice",
+                        "appealing"
+                    ]
+                }
+            ]  
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "consent",
+            "subjective-numeracy",
+            "training1",
+            "training2",
+            "training3",
+            "training4",
+            "training5",
+            "training6",
+            "training7",
+            "comprehension-check"
+        ]
+    }
+}
