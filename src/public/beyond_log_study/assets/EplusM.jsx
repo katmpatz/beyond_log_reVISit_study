@@ -6,7 +6,7 @@ const EplusM = ({ parameters, answers }) => {
   const chartContainer = useRef(null);
 
   // layout
-  const width = 800, height = 600;
+  const width = 800, height = 500;
   const marginLeft = 60, marginRight = 60, marginTop = 40, marginBottom = 60;
 
   // colors (from your SCSS variables)
@@ -69,6 +69,7 @@ const EplusM = ({ parameters, answers }) => {
   useEffect(() => {
     if (!Array.isArray(data)) return;
     updateChart();
+    console.log(answers)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, selectedCategory1, selectedCategory2]);
 
@@ -99,7 +100,7 @@ const EplusM = ({ parameters, answers }) => {
       .attr('width', width)
       .attr('height', height)
       .attr('viewBox', [0, 0, width, height])
-      .attr('style', 'max-width: 100%; height: auto; max-height:100%; min-width: 100%; min-height:100%');
+      .attr('style', 'max-width: 100%; height: auto; max-height:80%; min-width: 100%; min-height:80%');
 
     svg.selectAll('*').remove();
 
