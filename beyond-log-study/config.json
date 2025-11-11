@@ -1,0 +1,216 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Beyond Log Study",
+        "version": "pilot",
+        "authors": [
+            "Katerina Batziakoudi"
+        ],
+        "date": "2025-11-10",
+        "description": "Online studies comparing bar charts for data with orders of magnitude differences",
+        "organizations": [
+            "Inria, France"
+        ]
+    },
+    "baseComponents": {
+        "image-instructions-component": {
+            "previousButton": true,
+            "nextButtonLocation": "sidebar",
+            "response": [],
+            "style": {
+                "margin":"0 5vw",
+                "maxHeight": "60vh",
+                "maxWidth": "70vw"
+            },
+            "type": "image"
+        }
+    },
+    "uiConfig": {
+        "contactEmail": "aikaterini.batziakoudi@inria.fr",
+        "helpTextPath": "beyond-log-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": false,
+        "autoDownloadStudy": false,
+        "withSidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/introduction.md",
+            "response": []
+        },
+        "consent": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/consent.md",
+            "nextButtonText": "Agree",
+            "response": [
+                {
+                "id": "signature",
+                "prompt": "Your signature",
+                "location": "belowStimulus",
+                "type": "shortText",
+                "placeholder": "Please provide your signature"
+                },
+                {
+                "id": "accept",
+                "prompt": "Do you consent to the study and wish to continue?",
+                "requiredValue": "Accept",
+                "location": "belowStimulus",
+                "type": "radio",
+                "options": [
+                    "Decline",
+                    "Accept"
+                ]
+                }
+            ]
+        },
+        "subjective-numeracy": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/numeracy.md",
+            "nextButtonText": "Next",
+            "response": [
+                {
+                    "id": "q1-numeracy",
+                    "prompt": "How good are you at working with fractions?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Not good at all",
+                    "rightLabel": "Extremely good"
+                },
+                {
+                    "id": "fractions",
+                    "prompt": "How good are you at working with fractions?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Not good at all",
+                    "rightLabel": "Extremely good"
+                },
+                {
+                    "id": "shirt",
+                    "prompt": "How good are you at figuring out how much a shirt will cost if it is 25% off?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Not good at all",
+                    "rightLabel": "Extremely good"
+                },
+                {
+                    "id": "log",
+                    "prompt": "How often do you read logarithmic charts?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Never",
+                    "rightLabel": "Very often"
+                },
+                {
+                    "id": "usefulness",
+                    "prompt": "How often do you find numerical information to be useful?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Never",
+                    "rightLabel": "Very often"
+                },
+                {
+                    "id": "attention-1",
+                    "prompt": "How often do you travel to the planet Mars to buy kiwis?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 6,
+                    "withDivider": true,
+                    "leftLabel": "Never",
+                    "rightLabel": "Very often"
+                }
+            ]
+        },
+        "training1": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/all-visualizations.svg",
+        },
+        "training2": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/log-axis.svg",
+        },
+        "training3": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/log-scale.gif",
+        },
+        "training4": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/log-inside-1.svg",
+        },
+        "training5": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/eplusm-inside-2.svg",
+        },
+        "training6": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/units-inside.svg"
+        },
+        "training7": {
+            "baseComponent": "image-instructions-component",
+            "path": "beyond-log-study/assets/img/instructions/multimag-1.svg"
+        },
+        "comprehension-check": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/comprenhension.md",
+            "nextButtonText": "Ready to start the experiment",
+            "previousButton": true,
+            "previousButtonText": "Re-Read the instructions",
+            "response": [
+                {
+                "id": "q-radio-comp-1",
+                "prompt": "Based on the instructions you have just read, once you provided the answer what do you have to do?",
+                "secondaryText": "You have two opportunities to get this question correct. Your answer will be recorded the moment you click on a choice, so please be sure of your selection before clicking.",
+                "infoText": "Select the option that best represents your choice.",
+                "type": "radio",
+                "options": [
+                    "State how difficult you found the task.",
+                    "Wait one minute to be able to proceed to the next trial.",
+                    "State how confident you are for your answer.",
+                    "Provide textual feedback explaining the strategy you followed to find the answer.",
+                ],
+                "withOther": false
+                },
+                                {
+                "id": "q-radio-comp-2",
+                "prompt": "Based on the instructions you have just read, what will happen if you spent more than one and a half minute for a trial?",
+                "secondaryText": "You have two opportunities to get this question correct. Your answer will be recorded the moment you click on a choice, so please be sure of your selection before clicking.",
+                "infoText": "Select the option that best represents your choice.",
+                "type": "radio",
+                "options": [
+                    "You will automatically move to the next trial.",
+                    "You will have to provide textual feedback for the reasons of your delay.",
+                    "The experiment will finish and you will be rejected.",
+                    "The correct answer will be displayed and you will have to complete one extra trial."
+                ],
+                "withOther": false
+                }
+            ]  
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "consent",
+            "subjective-numeracy",
+            "training1",
+            "training2",
+            "training3",
+            "training4",
+            "training5",
+            "training6",
+            "training7",
+            "comprehension-check"
+        ]
+    }
+}
