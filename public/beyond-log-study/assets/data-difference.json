@@ -1,0 +1,1563 @@
+[
+        {
+            "trialID": 1,
+            "blockID": 1,
+            "task": "Value",
+            "selectedCategory1": "Q",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "Q",
+                    "Value": 37728
+                },
+                {
+                    "Category": "F",
+                    "Value": 57371
+                },
+                {
+                    "Category": "T",
+                    "Value": 191596
+                },
+                {
+                    "Category": "C",
+                    "Value": 153239
+                },
+                {
+                    "Category": "Z",
+                    "Value": 6264371
+                },
+                {
+                    "Category": "Y",
+                    "Value": 9195500
+                },
+                {
+                    "Category": "G",
+                    "Value": 74584729
+                },
+                {
+                    "Category": "U",
+                    "Value": 64371097
+                },
+                {
+                    "Category": "W",
+                    "Value": 286120547
+                },
+                {
+                    "Category": "M",
+                    "Value": 252906941
+                },
+                {
+                    "Category": "X",
+                    "Value": 5919933564
+                },
+                {
+                    "Category": "K",
+                    "Value": 8744128695
+                },
+                {
+                    "Category": "A",
+                    "Value": 36662871669
+                },
+                {
+                    "Category": "E",
+                    "Value": 61159597990
+                }
+            ]
+        },
+        {
+            "trialID": 2,
+            "blockID": 1,
+            "task": "Value",
+            "selectedCategory1": "E",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "S",
+                    "Value": 75832
+                },
+                {
+                    "Category": "T",
+                    "Value": 76924
+                },
+                {
+                    "Category": "E",
+                    "Value": 586775
+                },
+                {
+                    "Category": "L",
+                    "Value": 909733
+                },
+                {
+                    "Category": "M",
+                    "Value": 6662864
+                },
+                {
+                    "Category": "F",
+                    "Value": 8583751
+                },
+                {
+                    "Category": "J",
+                    "Value": 19184056
+                },
+                {
+                    "Category": "B",
+                    "Value": 68048020
+                },
+                {
+                    "Category": "D",
+                    "Value": 797796011
+                },
+                {
+                    "Category": "Y",
+                    "Value": 464973221
+                },
+                {
+                    "Category": "G",
+                    "Value": 8664999664
+                },
+                {
+                    "Category": "P",
+                    "Value": 9522727579
+                },
+                {
+                    "Category": "N",
+                    "Value": 82308087761
+                },
+                {
+                    "Category": "R",
+                    "Value": 89740741532
+                }
+            ]
+        },
+        {
+            "trialID": 3,
+            "blockID": 1,
+            "task": "Difference_Same",
+            "selectedCategory1": "I",
+            "selectedCategory2": "Q",
+            "data": [
+                {
+                    "Category": "R",
+                    "Value": 13715
+                },
+                {
+                    "Category": "Z",
+                    "Value": 40589
+                },
+                {
+                    "Category": "Q",
+                    "Value": 936449
+                },
+                {
+                    "Category": "I",
+                    "Value": 306599
+                },
+                {
+                    "Category": "S",
+                    "Value": 9305517
+                },
+                {
+                    "Category": "Y",
+                    "Value": 8062975
+                },
+                {
+                    "Category": "M",
+                    "Value": 90543201
+                },
+                {
+                    "Category": "F",
+                    "Value": 51288113
+                },
+                {
+                    "Category": "A",
+                    "Value": 628490450
+                },
+                {
+                    "Category": "G",
+                    "Value": 340313133
+                },
+                {
+                    "Category": "B",
+                    "Value": 5638638853
+                },
+                {
+                    "Category": "U",
+                    "Value": 8150896726
+                },
+                {
+                    "Category": "P",
+                    "Value": 30286822608
+                },
+                {
+                    "Category": "D",
+                    "Value": 59076461577
+                }
+            ]
+        },
+        {
+            "trialID": 4,
+            "blockID": 1,
+            "task": "Difference_Same",
+            "selectedCategory1": "L",
+            "selectedCategory2": "V",
+            "data": [
+                {
+                    "Category": "R",
+                    "Value": 72289
+                },
+                {
+                    "Category": "O",
+                    "Value": 26869
+                },
+                {
+                    "Category": "L",
+                    "Value": 774516
+                },
+                {
+                    "Category": "V",
+                    "Value": 892240
+                },
+                {
+                    "Category": "W",
+                    "Value": 7384481
+                },
+                {
+                    "Category": "F",
+                    "Value": 6673615
+                },
+                {
+                    "Category": "X",
+                    "Value": 98245568
+                },
+                {
+                    "Category": "Q",
+                    "Value": 45850129
+                },
+                {
+                    "Category": "Y",
+                    "Value": 908661955
+                },
+                {
+                    "Category": "T",
+                    "Value": 271776453
+                },
+                {
+                    "Category": "H",
+                    "Value": 8764876576
+                },
+                {
+                    "Category": "J",
+                    "Value": 1078984152
+                },
+                {
+                    "Category": "M",
+                    "Value": 39156105049
+                },
+                {
+                    "Category": "E",
+                    "Value": 72708249755
+                }
+            ]
+        },
+        {
+            "trialID": 5,
+            "blockID": 1,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "Z",
+            "selectedCategory2": "F",
+            "data": [
+                {
+                    "Category": "V",
+                    "Value": 70674
+                },
+                {
+                    "Category": "N",
+                    "Value": 18859
+                },
+                {
+                    "Category": "E",
+                    "Value": 875138
+                },
+                {
+                    "Category": "R",
+                    "Value": 293142
+                },
+                {
+                    "Category": "L",
+                    "Value": 4129323
+                },
+                {
+                    "Category": "U",
+                    "Value": 9358676
+                },
+                {
+                    "Category": "M",
+                    "Value": 91659461
+                },
+                {
+                    "Category": "H",
+                    "Value": 82146821
+                },
+                {
+                    "Category": "Y",
+                    "Value": 927149428
+                },
+                {
+                    "Category": "W",
+                    "Value": 212286221
+                },
+                {
+                    "Category": "D",
+                    "Value": 3808322416
+                },
+                {
+                    "Category": "Z",
+                    "Value": 3318948495
+                },
+                {
+                    "Category": "F",
+                    "Value": 61402903631
+                },
+                {
+                    "Category": "G",
+                    "Value": 80347139498
+                }
+            ]
+        },
+        {
+            "trialID": 6,
+            "blockID": 1,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "C",
+            "selectedCategory2": "W",
+            "data": [
+                {
+                    "Category": "H",
+                    "Value": 38043
+                },
+                {
+                    "Category": "X",
+                    "Value": 52268
+                },
+                {
+                    "Category": "A",
+                    "Value": 982201
+                },
+                {
+                    "Category": "M",
+                    "Value": 574997
+                },
+                {
+                    "Category": "O",
+                    "Value": 5739833
+                },
+                {
+                    "Category": "K",
+                    "Value": 7937740
+                },
+                {
+                    "Category": "G",
+                    "Value": 93597752
+                },
+                {
+                    "Category": "J",
+                    "Value": 25085406
+                },
+                {
+                    "Category": "I",
+                    "Value": 542922205
+                },
+                {
+                    "Category": "W",
+                    "Value": 815488508
+                },
+                {
+                    "Category": "C",
+                    "Value": 3845540021
+                },
+                {
+                    "Category": "E",
+                    "Value": 5389155585
+                },
+                {
+                    "Category": "U",
+                    "Value": 26221938000
+                },
+                {
+                    "Category": "N",
+                    "Value": 54485345299
+                }
+            ]
+        },
+        {
+            "trialID": 7,
+            "blockID": 2,
+            "task": "Value",
+            "selectedCategory1": "K",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "H",
+                    "Value": 51633
+                },
+                {
+                    "Category": "T",
+                    "Value": 29727
+                },
+                {
+                    "Category": "K",
+                    "Value": 287403
+                },
+                {
+                    "Category": "I",
+                    "Value": 497557
+                },
+                {
+                    "Category": "Z",
+                    "Value": 1760801
+                },
+                {
+                    "Category": "F",
+                    "Value": 2111443
+                },
+                {
+                    "Category": "P",
+                    "Value": 62921833
+                },
+                {
+                    "Category": "M",
+                    "Value": 28879767
+                },
+                {
+                    "Category": "O",
+                    "Value": 223721352
+                },
+                {
+                    "Category": "N",
+                    "Value": 378281281
+                },
+                {
+                    "Category": "A",
+                    "Value": 3672399776
+                },
+                {
+                    "Category": "B",
+                    "Value": 4827548812
+                },
+                {
+                    "Category": "G",
+                    "Value": 22179278576
+                },
+                {
+                    "Category": "W",
+                    "Value": 62384912274
+                }
+            ]
+        },
+        {
+            "trialID": 8,
+            "blockID": 2,
+            "task": "Value",
+            "selectedCategory1": "P",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "Q",
+                    "Value": 43802
+                },
+                {
+                    "Category": "G",
+                    "Value": 47743
+                },
+                {
+                    "Category": "E",
+                    "Value": 499262
+                },
+                {
+                    "Category": "T",
+                    "Value": 699766
+                },
+                {
+                    "Category": "P",
+                    "Value": 7772539
+                },
+                {
+                    "Category": "N",
+                    "Value": 8294554
+                },
+                {
+                    "Category": "O",
+                    "Value": 94633329
+                },
+                {
+                    "Category": "L",
+                    "Value": 45303546
+                },
+                {
+                    "Category": "H",
+                    "Value": 729556771
+                },
+                {
+                    "Category": "X",
+                    "Value": 859615526
+                },
+                {
+                    "Category": "F",
+                    "Value": 8657473665
+                },
+                {
+                    "Category": "Y",
+                    "Value": 5951605563
+                },
+                {
+                    "Category": "M",
+                    "Value": 50602651480
+                },
+                {
+                    "Category": "A",
+                    "Value": 78445864238
+                }
+            ]
+        },
+        {
+            "trialID": 9,
+            "blockID": 2,
+            "task": "Difference_Same",
+            "selectedCategory1": "C",
+            "selectedCategory2": "V",
+            "data": [
+                {
+                    "Category": "C",
+                    "Value": 62934
+                },
+                {
+                    "Category": "V",
+                    "Value": 79410
+                },
+                {
+                    "Category": "L",
+                    "Value": 908472
+                },
+                {
+                    "Category": "K",
+                    "Value": 547134
+                },
+                {
+                    "Category": "E",
+                    "Value": 7880186
+                },
+                {
+                    "Category": "Q",
+                    "Value": 5456212
+                },
+                {
+                    "Category": "A",
+                    "Value": 96307826
+                },
+                {
+                    "Category": "B",
+                    "Value": 48796763
+                },
+                {
+                    "Category": "M",
+                    "Value": 745263885
+                },
+                {
+                    "Category": "G",
+                    "Value": 710845614
+                },
+                {
+                    "Category": "U",
+                    "Value": 8518596865
+                },
+                {
+                    "Category": "F",
+                    "Value": 9940073565
+                },
+                {
+                    "Category": "I",
+                    "Value": 17712874604
+                },
+                {
+                    "Category": "J",
+                    "Value": 85731081399
+                }
+            ]
+        },
+        {
+            "trialID": 10,
+            "blockID": 2,
+            "task": "Difference_Same",
+            "selectedCategory1": "S",
+            "selectedCategory2": "O",
+            "data": [
+                {
+                    "Category": "C",
+                    "Value": 87457
+                },
+                {
+                    "Category": "H",
+                    "Value": 94505
+                },
+                {
+                    "Category": "S",
+                    "Value": 376190
+                },
+                {
+                    "Category": "O",
+                    "Value": 860787
+                },
+                {
+                    "Category": "K",
+                    "Value": 2512592
+                },
+                {
+                    "Category": "U",
+                    "Value": 4103622
+                },
+                {
+                    "Category": "G",
+                    "Value": 30312706
+                },
+                {
+                    "Category": "T",
+                    "Value": 49978525
+                },
+                {
+                    "Category": "N",
+                    "Value": 255823632
+                },
+                {
+                    "Category": "P",
+                    "Value": 187769667
+                },
+                {
+                    "Category": "E",
+                    "Value": 5893074553
+                },
+                {
+                    "Category": "J",
+                    "Value": 9567193963
+                },
+                {
+                    "Category": "R",
+                    "Value": 66890884770
+                },
+                {
+                    "Category": "Q",
+                    "Value": 31839059965
+                }
+            ]
+        },
+        {
+            "trialID": 11,
+            "blockID": 2,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "R",
+            "selectedCategory2": "H",
+            "data": [
+                {
+                    "Category": "X",
+                    "Value": 65083
+                },
+                {
+                    "Category": "U",
+                    "Value": 65895
+                },
+                {
+                    "Category": "Y",
+                    "Value": 133818
+                },
+                {
+                    "Category": "F",
+                    "Value": 977324
+                },
+                {
+                    "Category": "D",
+                    "Value": 7221333
+                },
+                {
+                    "Category": "A",
+                    "Value": 1789726
+                },
+                {
+                    "Category": "V",
+                    "Value": 18624658
+                },
+                {
+                    "Category": "M",
+                    "Value": 81162443
+                },
+                {
+                    "Category": "G",
+                    "Value": 849265672
+                },
+                {
+                    "Category": "S",
+                    "Value": 859353597
+                },
+                {
+                    "Category": "R",
+                    "Value": 6192172849
+                },
+                {
+                    "Category": "N",
+                    "Value": 1165319863
+                },
+                {
+                    "Category": "H",
+                    "Value": 68346751322
+                },
+                {
+                    "Category": "B",
+                    "Value": 42157081629
+                }
+            ]
+        },
+        {
+            "trialID": 12,
+            "blockID": 2,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "X",
+            "selectedCategory2": "C",
+            "data": [
+                {
+                    "Category": "S",
+                    "Value": 23850
+                },
+                {
+                    "Category": "G",
+                    "Value": 81830
+                },
+                {
+                    "Category": "Q",
+                    "Value": 877945
+                },
+                {
+                    "Category": "Y",
+                    "Value": 780795
+                },
+                {
+                    "Category": "F",
+                    "Value": 7234753
+                },
+                {
+                    "Category": "O",
+                    "Value": 8354451
+                },
+                {
+                    "Category": "D",
+                    "Value": 25708618
+                },
+                {
+                    "Category": "M",
+                    "Value": 58670059
+                },
+                {
+                    "Category": "C",
+                    "Value": 265320760
+                },
+                {
+                    "Category": "W",
+                    "Value": 942854231
+                },
+                {
+                    "Category": "B",
+                    "Value": 8736967208
+                },
+                {
+                    "Category": "X",
+                    "Value": 2319057794
+                },
+                {
+                    "Category": "K",
+                    "Value": 87760514425
+                },
+                {
+                    "Category": "E",
+                    "Value": 47865750659
+                }
+            ]
+        },
+        {
+            "trialID": 13,
+            "blockID": 3,
+            "task": "Value",
+            "selectedCategory1": "N",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "N",
+                    "Value": 15404
+                },
+                {
+                    "Category": "K",
+                    "Value": 83244
+                },
+                {
+                    "Category": "M",
+                    "Value": 368653
+                },
+                {
+                    "Category": "C",
+                    "Value": 746358
+                },
+                {
+                    "Category": "L",
+                    "Value": 8096640
+                },
+                {
+                    "Category": "Z",
+                    "Value": 9783347
+                },
+                {
+                    "Category": "A",
+                    "Value": 40494394
+                },
+                {
+                    "Category": "B",
+                    "Value": 99909179
+                },
+                {
+                    "Category": "O",
+                    "Value": 728560025
+                },
+                {
+                    "Category": "Q",
+                    "Value": 160456435
+                },
+                {
+                    "Category": "V",
+                    "Value": 6321453162
+                },
+                {
+                    "Category": "I",
+                    "Value": 1298833355
+                },
+                {
+                    "Category": "Y",
+                    "Value": 90678385595
+                },
+                {
+                    "Category": "R",
+                    "Value": 50596555062
+                }
+            ]
+        },
+        {
+            "trialID": 14,
+            "blockID": 3,
+            "task": "Value",
+            "selectedCategory1": "L",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "W",
+                    "Value": 54610
+                },
+                {
+                    "Category": "T",
+                    "Value": 32485
+                },
+                {
+                    "Category": "K",
+                    "Value": 233200
+                },
+                {
+                    "Category": "E",
+                    "Value": 207042
+                },
+                {
+                    "Category": "L",
+                    "Value": 8960866
+                },
+                {
+                    "Category": "J",
+                    "Value": 4727623
+                },
+                {
+                    "Category": "G",
+                    "Value": 93018056
+                },
+                {
+                    "Category": "U",
+                    "Value": 17472783
+                },
+                {
+                    "Category": "C",
+                    "Value": 541338781
+                },
+                {
+                    "Category": "H",
+                    "Value": 535404839
+                },
+                {
+                    "Category": "X",
+                    "Value": 2639607426
+                },
+                {
+                    "Category": "S",
+                    "Value": 9836357574
+                },
+                {
+                    "Category": "R",
+                    "Value": 39356018018
+                },
+                {
+                    "Category": "V",
+                    "Value": 12013360757
+                }
+            ]
+        },
+        {
+            "trialID": 15,
+            "blockID": 3,
+            "task": "Difference_Same",
+            "selectedCategory1": "J",
+            "selectedCategory2": "R",
+            "data": [
+                {
+                    "Category": "E",
+                    "Value": 81577
+                },
+                {
+                    "Category": "B",
+                    "Value": 34475
+                },
+                {
+                    "Category": "Y",
+                    "Value": 874179
+                },
+                {
+                    "Category": "G",
+                    "Value": 635383
+                },
+                {
+                    "Category": "I",
+                    "Value": 3364634
+                },
+                {
+                    "Category": "W",
+                    "Value": 4554227
+                },
+                {
+                    "Category": "F",
+                    "Value": 25980667
+                },
+                {
+                    "Category": "L",
+                    "Value": 98474014
+                },
+                {
+                    "Category": "U",
+                    "Value": 393469104
+                },
+                {
+                    "Category": "C",
+                    "Value": 310110691
+                },
+                {
+                    "Category": "X",
+                    "Value": 4543795429
+                },
+                {
+                    "Category": "A",
+                    "Value": 8045874262
+                },
+                {
+                    "Category": "J",
+                    "Value": 35662072874
+                },
+                {
+                    "Category": "R",
+                    "Value": 70946991983
+                }
+            ]
+        },
+        {
+            "trialID": 16,
+            "blockID": 3,
+            "task": "Difference_Same",
+            "selectedCategory1": "T",
+            "selectedCategory2": "X",
+            "data": [
+                {
+                    "Category": "A",
+                    "Value": 89136
+                },
+                {
+                    "Category": "J",
+                    "Value": 60842
+                },
+                {
+                    "Category": "K",
+                    "Value": 192121
+                },
+                {
+                    "Category": "F",
+                    "Value": 530870
+                },
+                {
+                    "Category": "N",
+                    "Value": 9517613
+                },
+                {
+                    "Category": "P",
+                    "Value": 4691807
+                },
+                {
+                    "Category": "I",
+                    "Value": 44302872
+                },
+                {
+                    "Category": "Y",
+                    "Value": 41796155
+                },
+                {
+                    "Category": "T",
+                    "Value": 338991502
+                },
+                {
+                    "Category": "X",
+                    "Value": 670974810
+                },
+                {
+                    "Category": "L",
+                    "Value": 2163132507
+                },
+                {
+                    "Category": "V",
+                    "Value": 5772413423
+                },
+                {
+                    "Category": "D",
+                    "Value": 47291028864
+                },
+                {
+                    "Category": "C",
+                    "Value": 79127308548
+                }
+            ]
+        },
+        {
+            "trialID": 17,
+            "blockID": 3,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "M",
+            "selectedCategory2": "R",
+            "data": [
+                {
+                    "Category": "K",
+                    "Value": 73841
+                },
+                {
+                    "Category": "W",
+                    "Value": 87582
+                },
+                {
+                    "Category": "F",
+                    "Value": 340261
+                },
+                {
+                    "Category": "B",
+                    "Value": 822367
+                },
+                {
+                    "Category": "M",
+                    "Value": 2088763
+                },
+                {
+                    "Category": "V",
+                    "Value": 8329385
+                },
+                {
+                    "Category": "L",
+                    "Value": 49285796
+                },
+                {
+                    "Category": "R",
+                    "Value": 64327693
+                },
+                {
+                    "Category": "E",
+                    "Value": 506924956
+                },
+                {
+                    "Category": "S",
+                    "Value": 117577495
+                },
+                {
+                    "Category": "Z",
+                    "Value": 9602986378
+                },
+                {
+                    "Category": "N",
+                    "Value": 7633732389
+                },
+                {
+                    "Category": "D",
+                    "Value": 65649077013
+                },
+                {
+                    "Category": "X",
+                    "Value": 73482748742
+                }
+            ]
+        },
+        {
+            "trialID": 18,
+            "blockID": 3,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "J",
+            "selectedCategory2": "Q",
+            "data": [
+                {
+                    "Category": "A",
+                    "Value": 64928
+                },
+                {
+                    "Category": "I",
+                    "Value": 26043
+                },
+                {
+                    "Category": "Z",
+                    "Value": 364064
+                },
+                {
+                    "Category": "G",
+                    "Value": 469887
+                },
+                {
+                    "Category": "R",
+                    "Value": 5706624
+                },
+                {
+                    "Category": "P",
+                    "Value": 7504106
+                },
+                {
+                    "Category": "X",
+                    "Value": 31830008
+                },
+                {
+                    "Category": "V",
+                    "Value": 28682090
+                },
+                {
+                    "Category": "Q",
+                    "Value": 784072229
+                },
+                {
+                    "Category": "F",
+                    "Value": 852254957
+                },
+                {
+                    "Category": "D",
+                    "Value": 2422314365
+                },
+                {
+                    "Category": "J",
+                    "Value": 2712741104
+                },
+                {
+                    "Category": "B",
+                    "Value": 92664231057
+                },
+                {
+                    "Category": "Y",
+                    "Value": 20823270622
+                }
+            ]
+        },
+        {
+            "trialID": 19,
+            "blockID": 4,
+            "task": "Value",
+            "selectedCategory1": "Y",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "O",
+                    "Value": 59577
+                },
+                {
+                    "Category": "Y",
+                    "Value": 24620
+                },
+                {
+                    "Category": "F",
+                    "Value": 265084
+                },
+                {
+                    "Category": "H",
+                    "Value": 111886
+                },
+                {
+                    "Category": "P",
+                    "Value": 9929920
+                },
+                {
+                    "Category": "S",
+                    "Value": 2492926
+                },
+                {
+                    "Category": "V",
+                    "Value": 29192649
+                },
+                {
+                    "Category": "L",
+                    "Value": 29394627
+                },
+                {
+                    "Category": "U",
+                    "Value": 512807944
+                },
+                {
+                    "Category": "R",
+                    "Value": 201543104
+                },
+                {
+                    "Category": "Q",
+                    "Value": 6237234520
+                },
+                {
+                    "Category": "B",
+                    "Value": 1012230786
+                },
+                {
+                    "Category": "I",
+                    "Value": 94676972688
+                },
+                {
+                    "Category": "G",
+                    "Value": 29506873004
+                }
+            ]
+        },
+        {
+            "trialID": 20,
+            "blockID": 4,
+            "task": "Value",
+            "selectedCategory1": "J",
+            "selectedCategory2": "",
+            "data": [
+                {
+                    "Category": "G",
+                    "Value": 51577
+                },
+                {
+                    "Category": "J",
+                    "Value": 68913
+                },
+                {
+                    "Category": "W",
+                    "Value": 211945
+                },
+                {
+                    "Category": "F",
+                    "Value": 570796
+                },
+                {
+                    "Category": "Q",
+                    "Value": 7498601
+                },
+                {
+                    "Category": "R",
+                    "Value": 9798510
+                },
+                {
+                    "Category": "Y",
+                    "Value": 27645849
+                },
+                {
+                    "Category": "B",
+                    "Value": 31925546
+                },
+                {
+                    "Category": "H",
+                    "Value": 706525729
+                },
+                {
+                    "Category": "D",
+                    "Value": 217055302
+                },
+                {
+                    "Category": "Z",
+                    "Value": 8621870374
+                },
+                {
+                    "Category": "I",
+                    "Value": 1727212575
+                },
+                {
+                    "Category": "V",
+                    "Value": 55759224146
+                },
+                {
+                    "Category": "S",
+                    "Value": 85834089741
+                }
+            ]
+        },
+        {
+            "trialID": 21,
+            "blockID": 4,
+            "task": "Difference_Same",
+            "selectedCategory1": "X",
+            "selectedCategory2": "V",
+            "data": [
+                {
+                    "Category": "W",
+                    "Value": 62752
+                },
+                {
+                    "Category": "L",
+                    "Value": 40255
+                },
+                {
+                    "Category": "N",
+                    "Value": 154444
+                },
+                {
+                    "Category": "E",
+                    "Value": 144053
+                },
+                {
+                    "Category": "O",
+                    "Value": 5150402
+                },
+                {
+                    "Category": "F",
+                    "Value": 7892314
+                },
+                {
+                    "Category": "I",
+                    "Value": 82107462
+                },
+                {
+                    "Category": "K",
+                    "Value": 77843271
+                },
+                {
+                    "Category": "A",
+                    "Value": 459655025
+                },
+                {
+                    "Category": "Y",
+                    "Value": 664603350
+                },
+                {
+                    "Category": "D",
+                    "Value": 7203655696
+                },
+                {
+                    "Category": "M",
+                    "Value": 2268713691
+                },
+                {
+                    "Category": "X",
+                    "Value": 18901136427
+                },
+                {
+                    "Category": "V",
+                    "Value": 78724265016
+                }
+            ]
+        },
+        {
+            "trialID": 22,
+            "blockID": 4,
+            "task": "Difference_Same",
+            "selectedCategory1": "A",
+            "selectedCategory2": "U",
+            "data": [
+                {
+                    "Category": "E",
+                    "Value": 77657
+                },
+                {
+                    "Category": "K",
+                    "Value": 50932
+                },
+                {
+                    "Category": "W",
+                    "Value": 810035
+                },
+                {
+                    "Category": "J",
+                    "Value": 250671
+                },
+                {
+                    "Category": "T",
+                    "Value": 6484049
+                },
+                {
+                    "Category": "L",
+                    "Value": 3285595
+                },
+                {
+                    "Category": "S",
+                    "Value": 12204051
+                },
+                {
+                    "Category": "M",
+                    "Value": 14798622
+                },
+                {
+                    "Category": "Z",
+                    "Value": 495287107
+                },
+                {
+                    "Category": "H",
+                    "Value": 875810092
+                },
+                {
+                    "Category": "A",
+                    "Value": 1812717358
+                },
+                {
+                    "Category": "U",
+                    "Value": 4090479488
+                },
+                {
+                    "Category": "I",
+                    "Value": 98965074616
+                },
+                {
+                    "Category": "C",
+                    "Value": 43372815777
+                }
+            ]
+        },
+        {
+            "trialID": 23,
+            "blockID": 4,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "U",
+            "selectedCategory2": "D",
+            "data": [
+                {
+                    "Category": "F",
+                    "Value": 13988
+                },
+                {
+                    "Category": "K",
+                    "Value": 21700
+                },
+                {
+                    "Category": "A",
+                    "Value": 543538
+                },
+                {
+                    "Category": "W",
+                    "Value": 350804
+                },
+                {
+                    "Category": "T",
+                    "Value": 4809115
+                },
+                {
+                    "Category": "U",
+                    "Value": 2394128
+                },
+                {
+                    "Category": "D",
+                    "Value": 70502549
+                },
+                {
+                    "Category": "C",
+                    "Value": 33603775
+                },
+                {
+                    "Category": "Q",
+                    "Value": 831306026
+                },
+                {
+                    "Category": "H",
+                    "Value": 647849291
+                },
+                {
+                    "Category": "B",
+                    "Value": 3289625053
+                },
+                {
+                    "Category": "R",
+                    "Value": 1150058295
+                },
+                {
+                    "Category": "L",
+                    "Value": 81188648981
+                },
+                {
+                    "Category": "N",
+                    "Value": 19930209453
+                }
+            ]
+        },
+        {
+            "trialID": 24,
+            "blockID": 4,
+            "task": "Difference_Neighbour",
+            "selectedCategory1": "K",
+            "selectedCategory2": "S",
+            "data": [
+                {
+                    "Category": "O",
+                    "Value": 16577
+                },
+                {
+                    "Category": "P",
+                    "Value": 82942
+                },
+                {
+                    "Category": "U",
+                    "Value": 282572
+                },
+                {
+                    "Category": "X",
+                    "Value": 343111
+                },
+                {
+                    "Category": "H",
+                    "Value": 1643012
+                },
+                {
+                    "Category": "A",
+                    "Value": 8175047
+                },
+                {
+                    "Category": "W",
+                    "Value": 82641411
+                },
+                {
+                    "Category": "C",
+                    "Value": 77032494
+                },
+                {
+                    "Category": "K",
+                    "Value": 228486228
+                },
+                {
+                    "Category": "I",
+                    "Value": 442311733
+                },
+                {
+                    "Category": "T",
+                    "Value": 2508263181
+                },
+                {
+                    "Category": "S",
+                    "Value": 9229765383
+                },
+                {
+                    "Category": "M",
+                    "Value": 49873096507
+                },
+                {
+                    "Category": "Y",
+                    "Value": 90554403431
+                }
+            ]
+        }
+    
+]
