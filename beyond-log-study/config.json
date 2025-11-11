@@ -23,6 +23,102 @@
                 "maxWidth": "70vw"
             },
             "type": "image"
+        },
+        "eplusm" : { 
+            "description": "EplusM Bar Chart",
+            "instruction": "Two values are selected, with orange rectangles around the bars. \n\nWhat is the absolute difference between the values?",
+            "type": "react-component",
+            "path": "beyond_log_study/assets/EplusM.jsx",
+            "parameters": {
+            "data": [
+                    {
+                        "Category": "R",
+                        "Value": 13715
+                    },
+                    {
+                        "Category": "Z",
+                        "Value": 40589
+                    },
+                    {
+                        "Category": "Q",
+                        "Value": 936449
+                    },
+                    {
+                        "Category": "I",
+                        "Value": 306599
+                    },
+                    {
+                        "Category": "S",
+                        "Value": 9305517
+                    },
+                    {
+                        "Category": "Y",
+                        "Value": 8062975
+                    },
+                    {
+                        "Category": "M",
+                        "Value": 90543201
+                    },
+                    {
+                        "Category": "F",
+                        "Value": 51288113
+                    },
+                    {
+                        "Category": "A",
+                        "Value": 628490450
+                    },
+                    {
+                        "Category": "G",
+                        "Value": 340313133
+                    },
+                    {
+                        "Category": "B",
+                        "Value": 5638638853
+                    },
+                    {
+                        "Category": "U",
+                        "Value": 8150896726
+                    },
+                    {
+                        "Category": "P",
+                        "Value": 30286822608
+                    },
+                    {
+                        "Category": "D",
+                        "Value": 59076461577
+                    }
+            ],
+            "selectedCategory1": "I",
+            "selectedCategory2": "Q"
+      },
+      "response": [
+        {
+          "id": "answer-difference",
+          "prompt": "ANSWER",
+          "infoText": "Provide an approximate estimation. Don't use calculators.",
+          "type": "numerical",
+          "placeholder": "Enter your estimation here",
+          "location": "sidebar",
+          "min": 0,
+          "withDontKnow": true
+        },
+         {
+          "id": "confidence-radio",
+          "prompt": "How confident are you for your answer?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "1 - Not Confident at all",
+            "2 - Slightly Confident",
+            "3 - Moderately Confident",
+            "4 - Very Confident",
+            "5 - Extremely Confident"
+          ]
+        }
+      ],
+      "nextButtonLocation": "sidebar",
+      "instructionLocation": "sidebar"
+    
         }
     },
     "uiConfig": {
@@ -195,6 +291,9 @@
                 "withOther": false
                 }
             ]  
+        },
+        "eplusm": {
+            "baseComponent": "eplusm"
         }
     },
     "sequence": {
@@ -210,7 +309,8 @@
             "training5",
             "training6",
             "training7",
-            "comprehension-check"
+            "comprehension-check",
+            "eplusm"
         ]
     }
 }
