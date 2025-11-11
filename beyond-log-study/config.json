@@ -24,11 +24,103 @@
             },
             "type": "image"
         },
-        "eplusm" : { 
-            "description": "EplusM Bar Chart",
+        "task_value":{
+            "instruction": "One category is selected, with orange rectangles around the bar. \n\nWhat is the value of the category?",
+            "type": "react-component",
+            "parameters": {
+            "data": [
+                    {
+                        "Category": "R",
+                        "Value": 13715
+                    },
+                    {
+                        "Category": "Z",
+                        "Value": 40589
+                    },
+                    {
+                        "Category": "Q",
+                        "Value": 936449
+                    },
+                    {
+                        "Category": "I",
+                        "Value": 306599
+                    },
+                    {
+                        "Category": "S",
+                        "Value": 9305517
+                    },
+                    {
+                        "Category": "Y",
+                        "Value": 8062975
+                    },
+                    {
+                        "Category": "M",
+                        "Value": 90543201
+                    },
+                    {
+                        "Category": "F",
+                        "Value": 51288113
+                    },
+                    {
+                        "Category": "A",
+                        "Value": 628490450
+                    },
+                    {
+                        "Category": "G",
+                        "Value": 340313133
+                    },
+                    {
+                        "Category": "B",
+                        "Value": 5638638853
+                    },
+                    {
+                        "Category": "U",
+                        "Value": 8150896726
+                    },
+                    {
+                        "Category": "P",
+                        "Value": 30286822608
+                    },
+                    {
+                        "Category": "D",
+                        "Value": 59076461577
+                    }
+            ],
+            "selectedCategory1": "P",
+            "selectedCategory2": ""
+      },
+      "response": [
+        {
+          "id": "answer-difference",
+          "prompt": "ANSWER",
+          "infoText": "Provide an approximate estimation.",
+          "type": "numerical",
+          "placeholder": "Enter your estimation here",
+          "location": "sidebar",
+          "min": 0,
+          "withDontKnow": true
+        },
+         {
+          "id": "confidence-radio",
+          "prompt": "How confident are you for your answer?",
+          "type": "radio",
+          "location": "sidebar",
+          "options": [
+            "1 - Not Confident at all",
+            "2 - Slightly Confident",
+            "3 - Moderately Confident",
+            "4 - Very Confident",
+            "5 - Extremely Confident"
+          ]
+        }
+      ],
+      "nextButtonLocation": "sidebar",
+      "instructionLocation": "sidebar"
+    
+        },
+        "task_dif" : { 
             "instruction": "Two values are selected, with orange rectangles around the bars. \n\nWhat is the absolute difference between the values?",
             "type": "react-component",
-            "path": "beyond_log_study/assets/EplusM.jsx",
             "parameters": {
             "data": [
                     {
@@ -292,8 +384,35 @@
                 }
             ]  
         },
-        "eplusm": {
-            "baseComponent": "eplusm"
+        "eplusm_value1": {
+            "baseComponent": "task_value",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
+        },
+        "eplusm_value2": {
+            "baseComponent": "task_value",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
+        },
+        "eplusm_dif1": {
+            "baseComponent": "task_dif",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
+        },
+        "eplusm_dif2": {
+            "baseComponent": "task_dif",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
+        },
+        "eplusm_dif3": {
+            "baseComponent": "task_dif",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
+        },
+        "eplusm_dif4": {
+            "baseComponent": "task_dif",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
         }
     },
     "sequence": {
@@ -310,7 +429,12 @@
             "training6",
             "training7",
             "comprehension-check",
-            "eplusm"
+            "eplusm_value1",
+            "eplusm_value2",
+            "eplusm_dif1",
+            "eplusm_dif2",
+            "eplusm_dif3",
+            "eplusm_dif4"
         ]
     }
 }
