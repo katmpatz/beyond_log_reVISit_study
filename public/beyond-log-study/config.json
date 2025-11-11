@@ -161,25 +161,38 @@
         },
         "comprehension-check": {
             "type": "markdown",
-            "path": "beyond-log-study/assets/comprehension.md",
+            "path": "beyond-log-study/assets/comprenhension.md",
             "nextButtonText": "Ready to start the experiment",
             "previousButton": true,
             "previousButtonText": "Re-Read the instructions",
             "response": [
                 {
-                    "id": "5items-response",
-                    "prompt": "To what extent do you agree that this visual representation is...?",
-                    "location": "belowStimulus",
-                    "type": "",
-                    "answerOptions": "satisfaction5",
-                    "questionOrder": "random", 
-                    "questionOptions": [
-                        "enjoyable",
-                        "likable",
-                        "pleasing",
-                        "nice",
-                        "appealing"
-                    ]
+                "id": "q-radio-comp-1",
+                "prompt": "Based on the instructions you have just read, once you provided the answer what do you have to do?",
+                "secondaryText": "You have two opportunities to get this question correct. Your answer will be recorded the moment you click on a choice, so please be sure of your selection before clicking.",
+                "infoText": "Select the option that best represents your choice.",
+                "type": "radio",
+                "options": [
+                    "State how difficult you found the task.",
+                    "Wait one minute to be able to proceed to the next trial.",
+                    "State how confident you are for your answer.",
+                    "Provide textual feedback explaining the strategy you followed to find the answer.",
+                ],
+                "withOther": false
+                },
+                                {
+                "id": "q-radio-comp-2",
+                "prompt": "Based on the instructions you have just read, what will happen if you spent more than one and a half minute for a trial?",
+                "secondaryText": "You have two opportunities to get this question correct. Your answer will be recorded the moment you click on a choice, so please be sure of your selection before clicking.",
+                "infoText": "Select the option that best represents your choice.",
+                "type": "radio",
+                "options": [
+                    "You will automatically move to the next trial.",
+                    "You will have to provide textual feedback for the reasons of your delay.",
+                    "The experiment will finish and you will be rejected.",
+                    "The correct answer will be displayed and you will have to complete one extra trial."
+                ],
+                "withOther": false
                 }
             ]  
         }
