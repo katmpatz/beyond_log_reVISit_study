@@ -27,190 +27,65 @@
         "task_value":{
             "instruction": "One category is selected, with orange rectangles around the bar. \n\nWhat is the value of the category?",
             "type": "react-component",
-            "parameters": {
-            "data": [
-                    {
-                        "Category": "R",
-                        "Value": 13715
-                    },
-                    {
-                        "Category": "Z",
-                        "Value": 40589
-                    },
-                    {
-                        "Category": "Q",
-                        "Value": 936449
-                    },
-                    {
-                        "Category": "I",
-                        "Value": 306599
-                    },
-                    {
-                        "Category": "S",
-                        "Value": 9305517
-                    },
-                    {
-                        "Category": "Y",
-                        "Value": 8062975
-                    },
-                    {
-                        "Category": "M",
-                        "Value": 90543201
-                    },
-                    {
-                        "Category": "F",
-                        "Value": 51288113
-                    },
-                    {
-                        "Category": "A",
-                        "Value": 628490450
-                    },
-                    {
-                        "Category": "G",
-                        "Value": 340313133
-                    },
-                    {
-                        "Category": "B",
-                        "Value": 5638638853
-                    },
-                    {
-                        "Category": "U",
-                        "Value": 8150896726
-                    },
-                    {
-                        "Category": "P",
-                        "Value": 30286822608
-                    },
-                    {
-                        "Category": "D",
-                        "Value": 59076461577
-                    }
+            "response": [
+                {
+                "id": "answer-difference",
+                "prompt": "ANSWER",
+                "infoText": "Provide an approximate estimation.",
+                "type": "numerical",
+                "placeholder": "Enter your estimation here",
+                "location": "sidebar",
+                "min": 0,
+                "withDontKnow": true
+                },
+                {
+                "id": "confidence-radio",
+                "prompt": "How confident are you for your answer?",
+                "type": "radio",
+                "location": "sidebar",
+                "options": [
+                    "1 - Not Confident at all",
+                    "2 - Slightly Confident",
+                    "3 - Moderately Confident",
+                    "4 - Very Confident",
+                    "5 - Extremely Confident"
+                ]
+                }
             ],
-            "selectedCategory1": "P",
-            "selectedCategory2": ""
-      },
-      "response": [
-        {
-          "id": "answer-difference",
-          "prompt": "ANSWER",
-          "infoText": "Provide an approximate estimation.",
-          "type": "numerical",
-          "placeholder": "Enter your estimation here",
-          "location": "sidebar",
-          "min": 0,
-          "withDontKnow": true
-        },
-         {
-          "id": "confidence-radio",
-          "prompt": "How confident are you for your answer?",
-          "type": "radio",
-          "location": "sidebar",
-          "options": [
-            "1 - Not Confident at all",
-            "2 - Slightly Confident",
-            "3 - Moderately Confident",
-            "4 - Very Confident",
-            "5 - Extremely Confident"
-          ]
-        }
-      ],
-      "nextButtonLocation": "sidebar",
-      "instructionLocation": "sidebar"
+            "nextButtonLocation": "sidebar",
+            "instructionLocation": "sidebar"
     
         },
         "task_dif" : { 
             "instruction": "Two values are selected, with orange rectangles around the bars. \n\nWhat is the absolute difference between the values?",
             "type": "react-component",
-            "parameters": {
-            "data": [
-                    {
-                        "Category": "R",
-                        "Value": 13715
-                    },
-                    {
-                        "Category": "Z",
-                        "Value": 40589
-                    },
-                    {
-                        "Category": "Q",
-                        "Value": 936449
-                    },
-                    {
-                        "Category": "I",
-                        "Value": 306599
-                    },
-                    {
-                        "Category": "S",
-                        "Value": 9305517
-                    },
-                    {
-                        "Category": "Y",
-                        "Value": 8062975
-                    },
-                    {
-                        "Category": "M",
-                        "Value": 90543201
-                    },
-                    {
-                        "Category": "F",
-                        "Value": 51288113
-                    },
-                    {
-                        "Category": "A",
-                        "Value": 628490450
-                    },
-                    {
-                        "Category": "G",
-                        "Value": 340313133
-                    },
-                    {
-                        "Category": "B",
-                        "Value": 5638638853
-                    },
-                    {
-                        "Category": "U",
-                        "Value": 8150896726
-                    },
-                    {
-                        "Category": "P",
-                        "Value": 30286822608
-                    },
-                    {
-                        "Category": "D",
-                        "Value": 59076461577
-                    }
+            "response": [
+                {
+                "id": "answer-difference",
+                "prompt": "ANSWER",
+                "infoText": "Provide an approximate estimation. Don't use calculators.",
+                "type": "numerical",
+                "placeholder": "Enter your estimation here",
+                "location": "sidebar",
+                "min": 0,
+                "withDontKnow": true
+                },
+                {
+                "id": "confidence-radio",
+                "prompt": "How confident are you for your answer?",
+                "type": "radio",
+                "location": "sidebar",
+                "options": [
+                    "1 - Not Confident at all",
+                    "2 - Slightly Confident",
+                    "3 - Moderately Confident",
+                    "4 - Very Confident",
+                    "5 - Extremely Confident"
+                ]
+                }
             ],
-            "selectedCategory1": "I",
-            "selectedCategory2": "Q"
-      },
-      "response": [
-        {
-          "id": "answer-difference",
-          "prompt": "ANSWER",
-          "infoText": "Provide an approximate estimation. Don't use calculators.",
-          "type": "numerical",
-          "placeholder": "Enter your estimation here",
-          "location": "sidebar",
-          "min": 0,
-          "withDontKnow": true
-        },
-         {
-          "id": "confidence-radio",
-          "prompt": "How confident are you for your answer?",
-          "type": "radio",
-          "location": "sidebar",
-          "options": [
-            "1 - Not Confident at all",
-            "2 - Slightly Confident",
-            "3 - Moderately Confident",
-            "4 - Very Confident",
-            "5 - Extremely Confident"
-          ]
-        }
-      ],
-      "nextButtonLocation": "sidebar",
-      "instructionLocation": "sidebar"
-    
+            "nextButtonLocation": "sidebar",
+            "instructionLocation": "sidebar"
         }
     },
     "uiConfig": {
@@ -319,6 +194,140 @@
                 }
             ]
         },
+        "nasa-tlx": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/nasaTLX.md",
+            "nextButtonText": "Proceed to the next block",
+            "response": [
+                {
+                    "id": "mental-demand",
+                    "prompt": "How mentally demanding were the tasks with this visualization design?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "temporal-demand",
+                    "prompt": "How hurried or rushed was the pace of the tasks with this visualization design?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "success",
+                    "prompt": "How successful were you in accomplishing what you were asked to do?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "effort",
+                    "prompt": "How hard did you have to work to accomplish your level of performance?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "stress",
+                    "prompt": "How insecure, discouraged, irritated, stressed, or annoyed were you?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "attention-2",
+                    "prompt": "It's important that you pay attention to this study. Please tick 6. This is an attention check.",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "block-feedback",
+                    "prompt": "Please take a moment to share any thoughts on your workload ratings.",
+                    "location": "belowStimulus",
+                    "type": "longText",
+                    "placeholder": "What influenced your answers? Did any aspect of the visualization make the tasks easier or harder? Write NA if you have no comment."
+                    }
+            ]
+        },
+        "ranking": {
+            "type": "markdown",
+            "path": "beyond-log-study/assets/ranking.md",
+            "nextButtonText": "Proceed to the next block",
+            "response": [
+                    {
+                    "id": "ranking",
+                    "prompt": "Please rank the visualizations based on your experience by selecting the one you preferred the most, followed by your second, third, and last choice in the table below.",
+                    "location": "belowStimulus",
+                    "type": "matrix-radio",
+                    "answerOptions": [
+                        "Logarithmic",
+                        "EplusM",
+                        "Multi-Magnitude",
+                        "Bricks"
+                    ],
+                    "questionOrder": "fixed", 
+                    "questionOptions": [
+                        "Most Preffered",
+                        "Second Choice",
+                        "Third Choice",
+                        "Less Preferred"
+                    ]},
+                {
+                    "id": "ranking-feedback",
+                    "prompt": "Please briefly explain the reasons for your ranking.",
+                    "secondaryText": "What aspects influenced your choices? Consider factors like clarity, ease of use, efficiency, or any challenges you encountered.",
+                    "location": "belowStimulus",
+                    "type": "longText",
+                    "placeholder": "Provide your feedback here."
+                    },
+                {
+                    "id": "experience",
+                    "prompt": "How successful were you in accomplishing what you were asked to do?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Very Low",
+                    "rightLabel": "Very High"
+                },
+                {
+                    "id": "effort",
+                    "prompt": "How would you rate your overall experience with the experiment?",
+                    "location": "belowStimulus",
+                    "type": "likert",
+                    "numItems": 7,
+                    "withDivider": true,
+                    "leftLabel": "Not Good at all",
+                    "rightLabel": "Extremely Good"
+                },
+                {
+                    "id": "problems-feedback",
+                    "prompt": "Did you encounter any technical problems? Do you have any suggestions for improvement?",
+                    "location": "belowStimulus",
+                    "type": "longText",
+                    "placeholder": "Provide your feedback here."
+                    }
+            ]
+        },
         "training1": {
             "baseComponent": "image-instructions-component",
             "path": "beyond-log-study/assets/img/instructions/all-visualizations.svg",
@@ -384,35 +393,45 @@
                 }
             ]  
         },
-        "eplusm_value1": {
+        "eplusm_value": {
             "baseComponent": "task_value",
             "description": "EplusM Bar Chart",
             "path": "beyond_log_study/assets/EplusM.jsx"
         },
-        "eplusm_value2": {
+        "eplusm_dif": {
+            "baseComponent": "task_dif",
+            "description": "EplusM Bar Chart",
+            "path": "beyond_log_study/assets/EplusM.jsx"
+        },
+        "log_value": {
             "baseComponent": "task_value",
-            "description": "EplusM Bar Chart",
-            "path": "beyond_log_study/assets/EplusM.jsx"
+            "description": "Log Bar Chart",
+            "path": "beyond_log_study/assets/Log.jsx"
         },
-        "eplusm_dif1": {
+        "log_dif": {
             "baseComponent": "task_dif",
-            "description": "EplusM Bar Chart",
-            "path": "beyond_log_study/assets/EplusM.jsx"
+            "description": "Log Bar Chart",
+            "path": "beyond_log_study/assets/Log.jsx"
         },
-        "eplusm_dif2": {
-            "baseComponent": "task_dif",
-            "description": "EplusM Bar Chart",
-            "path": "beyond_log_study/assets/EplusM.jsx"
+        "bricks_value": {
+            "baseComponent": "task_value",
+            "description": "Bricks Bar Chart",
+            "path": "beyond_log_study/assets/Bricks.jsx"
         },
-        "eplusm_dif3": {
+        "bricks_dif": {
             "baseComponent": "task_dif",
-            "description": "EplusM Bar Chart",
-            "path": "beyond_log_study/assets/EplusM.jsx"
+            "description": "Bricks Bar Chart",
+            "path": "beyond_log_study/assets/Bricks.jsx"
         },
-        "eplusm_dif4": {
+        "multimag_value": {
+            "baseComponent": "task_value",
+            "description": "Multi-Magnitude Bar Chart",
+            "path": "beyond_log_study/assets/Multimag.jsx"
+        },
+        "multimag_dif": {
             "baseComponent": "task_dif",
-            "description": "EplusM Bar Chart",
-            "path": "beyond_log_study/assets/EplusM.jsx"
+            "description": "Multi-Magnitude Bar Chart",
+            "path": "beyond_log_study/assets/Multimag.jsx"
         }
     },
     "sequence": {
@@ -429,12 +448,56 @@
             "training6",
             "training7",
             "comprehension-check",
-            "eplusm_value1",
-            "eplusm_value2",
-            "eplusm_dif1",
-            "eplusm_dif2",
-            "eplusm_dif3",
-            "eplusm_dif4"
+            {
+                "order": "latinSquare",
+                "components": [
+                    {
+                        "order": "fixed",
+                        "components": [
+                            {
+                                "id": "visblock_eplusm_dynamic",
+                                "order": "dynamic",
+                                "functionPath": "beyond_log_study/assets/dynamic.tsx"
+                            },
+                            "nasa-tlx"
+                        ]
+                    },
+                    {
+                        "order": "fixed",
+                        "components": [
+                            {
+                                "id": "visblock_bricks_dynamic",
+                                "order": "dynamic",
+                                "functionPath": "beyond_log_study/assets/dynamic.tsx"
+                            },
+                            "nasa-tlx"
+                        ]
+                    },
+                    {
+                        "order": "fixed",
+                        "components": [
+                            {
+                                "id": "visblock_multimag_dynamic",
+                                "order": "dynamic",
+                                "functionPath": "beyond_log_study/assets/dynamic.tsx"
+                            },
+                            "nasa-tlx"
+                        ]
+                    },
+                    {
+                        "order": "fixed",
+                        "components": [
+                            {
+                                "id": "visblock_log_dynamic",
+                                "order": "dynamic",
+                                "functionPath": "beyond_log_study/assets/dynamic.tsx"
+                            },
+                            "nasa-tlx"
+                        ]
+                    }
+            ]
+        },
+        "ranking"
         ]
     }
 }
