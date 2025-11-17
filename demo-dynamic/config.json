@@ -53,7 +53,7 @@
     },
     "sequence": {
       "order": "fixed",
-      "components": [
+      "components": [ 
         "introduction",
         {
             "id": "dynamicBlock",
